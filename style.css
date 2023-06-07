@@ -1,0 +1,168 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body h1 {
+    color: #fff;
+}
+
+header {
+    background-color: rgb(241, 137, 218);
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #f2f2f2;
+    background-repeat:inherit;    
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.featured-books {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(187, 139, 177, 0.379);
+}
+
+
+.autores {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.book {
+    display: inline-block;
+    margin: 20px;
+}
+
+.book img {
+    width: 200px;
+}
+
+.autor img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+.logo img {
+    width: 400px;
+
+}
+.inspiracoes .escola {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inspiracoes .escola > div {
+    text-align: center;
+    margin: 10px;
+  }
+
+.escola img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+.inspiracoes h2 {
+    text-align: center;
+}
+
+.inspiracoes p {
+    width: 300px;
+   font-size: 25px;
+}
+
+.inspiracoes h3 {
+   font-size: 30px;
+}
+  
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: black;
+}
+
+.pedido {
+    background-color: rgba(241, 137, 218, 0.448);    text-align: center;
+    padding: 50px;
+}
+
+.pedido h2 {
+    color: #fff;
+}
+
+.video {
+    width: 100%; /* Define a largura do vídeo */
+    max-width: 500px; /* Define a largura máxima do vídeo */
+    height: auto; /* Mantém a proporção original do vídeo */
+    border: 1px solid #ccc; /* Adiciona uma borda ao redor do vídeo */
+  }
+  
+  /* Personaliza os controles do vídeo */
+  .video::-webkit-media-controls-panel {
+    background-color: rgba(0, 0, 0, 0.75); /* Define a cor de fundo dos controles no Safari e navegadores baseados no WebKit */
+    color: #fff; /* Define a cor do texto dos controles */
+  }
+  
+  .video::-webkit-media-controls-play-button {
+    color: #fff; /* Define a cor do botão de reprodução no Safari e navegadores baseados no WebKit */
+  }
+  
+  .video::-webkit-media-controls-volume-slider {
+    background-color: #fff; /* Define a cor de fundo do controle de volume no Safari e navegadores baseados no WebKit */
+  }
+  
+  .divisao-pagina {
+    height: 100px; /* Altura desejada para a faixa de imagem */
+    background-image: url("lab1.jpeg"); /* Caminho da imagem */
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    opacity: 0.5;
+  }
+  
